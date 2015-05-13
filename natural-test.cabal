@@ -16,12 +16,10 @@ library
   exposed-modules:
     Test.Natural
   other-modules:       
-    Test.Natural.QuickCheck
     Test.Natural.SmallCheck
   -- other-extensions:    
   build-depends:
       base >=4.8 && <4.9
-    , QuickCheck
     , smallcheck
   hs-source-dirs:      src
   default-language:    Haskell2010
